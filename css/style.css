@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: radial-gradient(rgb(60, 59, 59),black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    font-size: 50px;
+    margin-top: 300px;
+    margin-left: 800px;
+    background-color: black;
+    height: 480px;
+    width: 350px;
+}
+.result{
+    outline: none;
+    text-align: right;
+    padding: 33px;
+    width: 80%;
+    display: flex;
+    border-bottom: 1px groove gray;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px groove grey;
+}
+input[type="button"]{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    color: white;
+    border: 2px groove rgba(0, 0, 0, 0);
+    background-color: rgb(21, 18, 18);
+    transition: 0.5s;
+}
+input[type="button"]:hover{
+    background-color: rgb(97, 95, 95);
+    border: 2px groove white;
+}
+input[value='=']{
+    width: 150px;
+    border-radius: 80px;
+    background-color: orange;
+}
+input[value = '+']{
+    background-color: orange;
+}
+input[value = '-']{
+    background-color: orange;
+}
+input[value = '*']{
+    background-color: orange;
+}
+input[value = '/']{
+    background-color: orange;
+}
+input[value = 'AC']{
+    background-color: orange;
+}
+input[value = 'C']{
+    background-color: orange;
+}
+input[value = '%']{
+    background-color: orange;
+}
+#answer{
+   position: absolute;
+   bottom: 580px;
+   right: 800px;
+   background-color: black;
+   border: none;
+}
